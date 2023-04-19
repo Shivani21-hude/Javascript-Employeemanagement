@@ -2,7 +2,7 @@ let FullTime=1;
 let PartTime=2;
 let empHrs=0;
 let WagePerHour=20;
-let empCheck=Math.floor(Math.random()*10)%2;
+let empCheck=Math.floor(Math.random()*10)%3;
 switch(empCheck)
 {
 case FullTime:
